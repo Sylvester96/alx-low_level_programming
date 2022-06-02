@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description 
+ * Description: 'and that piece of art is useful - Dora Korpar'
  *
  * Return
  */
