@@ -4,7 +4,7 @@ Task 1: This program will assign a random number to the variable n each time it 
 
 Task 2: A program that prints the alphabet in lowercase, followed by a new line using putchar function only.
 
-Task 3: 
+Task 3: A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line using putchar function only.
 
 Task 4: 
 
