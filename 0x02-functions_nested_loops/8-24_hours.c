@@ -20,7 +20,7 @@ void jack_bauer(void)
 				{
 					if (a >= 50 && b >= 52)
 					break;
-					_putcher(a);
+					_putchar(a);
 					_putchar(b);
 					_putchar(58);
 					_putchar(c);
