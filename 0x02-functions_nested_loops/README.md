@@ -8,4 +8,17 @@ Task 3: A function that checks for lowercase character.
 
 Task 4: A function that checks for alphabetic character.
 
-Task 5: 
+Task 5: A function that prints the sign of a number.
+
+Task 6: A function that computes the absolute value of an integer.
+
+Task 7:
+
+Task 8:
+
+Task 9:
+
+Task 10:
+
+Task 11:
+
