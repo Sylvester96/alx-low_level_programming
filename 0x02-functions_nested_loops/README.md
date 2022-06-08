@@ -4,7 +4,7 @@ Task 1: A function that prints the alphabet, in lowercase, followed by a new lin
 
 Task 2: A function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
-Task 3: 
+Task 3: A function that checks for lowercase character. 
 
 Task 4:
 
