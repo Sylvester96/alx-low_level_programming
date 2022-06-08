@@ -6,6 +6,6 @@ Task 2: A function that prints 10 times the alphabet, in lowercase, followed by 
 
 Task 3: A function that checks for lowercase character. 
 
-Task 4:
+Task 4: A function that checks for alphabetic character.
 
 Task 5: 
