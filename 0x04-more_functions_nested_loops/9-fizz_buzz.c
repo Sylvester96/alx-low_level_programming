@@ -21,9 +21,9 @@ int main(void)
 		else
 			printf("%i", i);
 		if (i != 100)
-			putcahr(' );
+			putchar(' );
 		i++;
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
