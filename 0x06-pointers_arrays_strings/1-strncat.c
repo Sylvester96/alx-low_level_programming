@@ -10,19 +10,18 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	char *new_dest = debt;
+	int i = 0, j = 0;
 
-	while (*dest)
-		dest++;
-
-	while (*src && (i < n))
+	while (dest[i] != '\0')
 	{
-		*dest++ = *src++;
 		i++;
 	}
-
-	*dest = '\0';
-
-	return (new_dest);
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
