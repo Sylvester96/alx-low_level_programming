@@ -2,20 +2,20 @@
 #include <stdio.h>
 
 /**
- * sqrt_loop - Finds natural square root, if it exists
- * @n: variable holding natural sqrt.
- * @m: variable of original input value
+ * find_sqrt - Finds natural square root, if it exists
+ * @num: variable holding natural sqrt.
+ * @root: variable of original input value
  * Return: return natural sqrt or -1 if one does not
  */
 
-int sqrt_loop(int n, int m)
+int find_sqrt(int n, int m)
 {
-	if (n == m * m)
-		return (n / m);
-	else if (n < m * m)
+	if ((root * root) == num)
+		return (root);
+	if (root == num / 2)
 		return (-1);
 
-	return (sqrt_loop(m + 1, n));
+	return (find_sqrt(num, root + 1));
 }
 
 /**
@@ -26,10 +26,11 @@ int sqrt_loop(int n, int m)
 
 int _sqrt_recursion(int n)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	else if (n < 0)
-		return (-1);
+	int root = 0;
 
-	return (sqrt_loop(1, n));
-}
+	if (n < 0)
+		return (-1);
+	if (n == 1)
+		return (1);
+
+	return (find_sqrt(n, root));
