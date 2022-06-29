@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	int i, num, sum;
 
 	sum = 0;
-	for(i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		num = num_checker(argv[i]);
 		if (num == -1)
