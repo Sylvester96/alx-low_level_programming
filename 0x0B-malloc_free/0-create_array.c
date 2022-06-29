@@ -3,24 +3,25 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
+ * create_array - creates an array of chars,
+ * and initializes it with a specific char
  * @size: the size of the memory to print
+ * @c: character to initialize the array with
  *
- * Return: Nothing
+ * Return: pointer to created array, otherwise NULL if size is 0
+ * or the function fails
  */
 
 char *create_array(unsigned int size, char c)
 {
+	char *buffer = malloc(sizeof(char) * size);
 	unsigned int i;
 
-	if (size == 0)
+	if (buffer == NULL || SIZE == 0)
 		return (NULL);
 
-	char *s = (char*)malloc(size * sizeof(char));
-
 	for (i = 0; i < size; i++)
-		s[i] = c;
+		buffer[i] = c;
 
-	return (s);
+	return (buffer);
 }
