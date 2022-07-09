@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 {
 	int i = 0;
 	va_list argument_input;
-	char *str = "(nill)";
+	char *str = "(nil)";
 	char *sarray = NULL;
 	char *separator = ", ";
 
@@ -50,3 +50,11 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(argument_input);
 }
+
+
+
+
+
+
+
+
