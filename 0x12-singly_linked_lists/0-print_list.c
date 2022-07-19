@@ -3,20 +3,22 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a linked list
- * @h: linked list of tupe listint_t to print
+ * print_list - prints all the elements of a linked list
+ * @h: pointer to the start of the list
  *
- * Return: number of nodes
+ * Return: number of nodes in the list
  */
 
-size_t print_listint(const listint_t *h)
+size_t print_list(const list_t *h)
 {
-	size_t i;
+	const list_t *tmp;
+	unsigned int i;
 
-	for (i = 0; h; i++)
+	tmp = h;
+	for (i = 0; tmp; i++)
 	{
-		printf("[%d] %s\n", h->len, h->str);
-		h = h->next;
+		printf("[%u] %s\n", tmp->len, tmp->str);
+		tmp = tmp->next;
 	}
 
 	return (i);
