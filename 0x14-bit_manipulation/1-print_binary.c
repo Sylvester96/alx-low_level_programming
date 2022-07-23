@@ -42,7 +42,7 @@ void print_binary(unsigned long int n)
 		}
 		else if (flag == 1 || divisor == 1)
 		{
-			_putchar('0')
+			_putchar('0');
 		}
 		divisor >>= 1;
 	}
